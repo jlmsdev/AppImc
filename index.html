@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App IMC - Seu Peso</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <main class="container">
+
+        <form class="formInput" onsubmit="return calcular(event)">
+            <label>Digite seu Peso</label>
+            <input type="text" placeholder="Ex: 82" id="peso">
+
+            <label>Digite sua Altura</label>
+            <input type="text" placeholder="Ex: 1.86" id="altura">
+
+            <input type="submit" value="Calcular IMC">
+        </form>
+
+    </main>
+
+    <div class="resultadoIMC" id="resultado">
+        <h3>Faça o Calculo Acima para receber o Resultado IMC</h3>
+            
+    </div>
+
+    <script src="./js/engine.js"></script>
+</body>
+</html>
