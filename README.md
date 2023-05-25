@@ -20,7 +20,8 @@ Além disso, o resultado do cálculo é classificado em diferentes categorias, d
 
 ## Uso
 
-Para utilizar a calculadora de IMC, siga os seguintes passos:
+Para utilizar a calculadora de IMC, siga os seguintes passos ou acesse no Link:
+[Calculadora IMC](https://jlms-appimc.netlify.app/)
 
 1. Abra o arquivo `index.html` no seu navegador web.
 2. Insira seu peso (em quilogramas) no campo "Peso".
