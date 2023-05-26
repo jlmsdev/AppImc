@@ -27,6 +27,7 @@ function calcular(event) {
 
     if(peso === '' || altura === '') {
         alert(`Preencha os Campos para o Calculo Correto`);
+        return false;
 
     } else if( imc < 18.5 ) {
         resultado.innerHTML = `Seu IMC é: ${imc.toFixed(2)} Indice de Magreza Cuidado!`;
